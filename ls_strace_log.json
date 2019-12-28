@@ -1,0 +1,481 @@
+[{
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "execve",
+    "arguments": "\"/bin/ls\", [\"ls\"], [/* 89 vars */]"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x245c00",
+    "name": "brk",
+    "arguments": "NULL"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "access",
+    "arguments": "\"/etc/ld.so.nohwcap\", F_OK"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "access",
+    "arguments": "\"/etc/ld.so.preload\", R_OK"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFREG|0644, st_size=266628, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe39720800",
+    "name": "mmap",
+    "arguments": "NULL, 266628, PROT_READ, MAP_PRIVATE, 3, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "access",
+    "arguments": "\"/etc/ld.so.nohwcap\", F_OK"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\"/lib/x86_64-linux-gnu/libselinux.so.1\", O_RDONLY|O_CLOEXEC"
+}, {
+    "timestamp": 1577520950,
+    "return": "83",
+    "name": "read",
+    "arguments": "3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0\\3\\0>\\0\\1\\0\\0\\0\\260Z\\0\\0\\0\\0\\0\\0\"..., 832"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFREG|0644, st_size=130224, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe39720700",
+    "name": "mmap",
+    "arguments": "NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe396e0300",
+    "name": "mmap",
+    "arguments": "NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe396e22000, 2093056, PROT_NONE"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe39702100",
+    "name": "mmap",
+    "arguments": "0x7fe397021000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe39702300",
+    "name": "mmap",
+    "arguments": "0x7fe397023000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "access",
+    "arguments": "\"/etc/ld.so.nohwcap\", F_OK"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC"
+}, {
+    "timestamp": 1577520950,
+    "return": "83",
+    "name": "read",
+    "arguments": "3, \"\\177ELF\\2\\1\\1\\3\\0\\0\\0\\0\\0\\0\\0\\0\\3\\0>\\0\\1\\0\\0\\0P\\t\\2\\0\\0\\0\\0\\0\"..., 832"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFREG|0755, st_size=1868984, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe396a3900",
+    "name": "mmap",
+    "arguments": "NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe396bf9000, 2097152, PROT_NONE"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe396df900",
+    "name": "mmap",
+    "arguments": "0x7fe396df9000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe396dff00",
+    "name": "mmap",
+    "arguments": "0x7fe396dff000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "access",
+    "arguments": "\"/etc/ld.so.nohwcap\", F_OK"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC"
+}, {
+    "timestamp": 1577520950,
+    "return": "83",
+    "name": "read",
+    "arguments": "3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0\\3\\0>\\0\\1\\0\\0\\0000\\25\\0\\0\\0\\0\\0\\0\"..., 832"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFREG|0644, st_size=456632, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe3967c900",
+    "name": "mmap",
+    "arguments": "NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe396837000, 2097152, PROT_NONE"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe396a3700",
+    "name": "mmap",
+    "arguments": "0x7fe396a37000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6e000"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "access",
+    "arguments": "\"/etc/ld.so.nohwcap\", F_OK"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC"
+}, {
+    "timestamp": 1577520950,
+    "return": "83",
+    "name": "read",
+    "arguments": "3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0\\3\\0>\\0\\1\\0\\0\\0\\240\\r\\0\\0\\0\\0\\0\\0\"..., 832"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFREG|0644, st_size=14608, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe39720600",
+    "name": "mmap",
+    "arguments": "NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe3965c500",
+    "name": "mmap",
+    "arguments": "NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe3965c8000, 2093056, PROT_NONE"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe3967c700",
+    "name": "mmap",
+    "arguments": "0x7fe3967c7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "access",
+    "arguments": "\"/etc/ld.so.nohwcap\", F_OK"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC"
+}, {
+    "timestamp": 1577520950,
+    "return": "83",
+    "name": "read",
+    "arguments": "3, \"\\177ELF\\2\\1\\1\\0\\0\\0\\0\\0\\0\\0\\0\\0\\3\\0>\\0\\1\\0\\0\\0\\260`\\0\\0\\0\\0\\0\\0\"..., 832"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFREG|0755, st_size=138696, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe3963a800",
+    "name": "mmap",
+    "arguments": "NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe3963c0000, 2093056, PROT_NONE"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe3965bf00",
+    "name": "mmap",
+    "arguments": "0x7fe3965bf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe3965c100",
+    "name": "mmap",
+    "arguments": "0x7fe3965c1000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe39720500",
+    "name": "mmap",
+    "arguments": "NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe39720300",
+    "name": "mmap",
+    "arguments": "NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "arch_prctl",
+    "arguments": "ARCH_SET_FS, 0x7fe397203800"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe396df9000, 16384, PROT_READ"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe3965bf000, 4096, PROT_READ"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe3967c7000, 4096, PROT_READ"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe396a37000, 4096, PROT_READ"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe397021000, 4096, PROT_READ"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x61d000, 4096, PROT_READ"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "mprotect",
+    "arguments": "0x7fe39724a000, 4096, PROT_READ"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "munmap",
+    "arguments": "0x7fe397208000, 266628"
+}, {
+    "timestamp": 1577520950,
+    "return": "465",
+    "name": "set_tid_address",
+    "arguments": "0x7fe397203ad0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "set_robust_list",
+    "arguments": "0x7fe397203ae0, 24"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "rt_sigaction",
+    "arguments": "SIGRTMIN, {0x7fe3963adb50, [], SA_RESTORER|SA_SIGINFO, 0x7fe3963b9390}, NULL, 8"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "rt_sigaction",
+    "arguments": "SIGRT_1, {0x7fe3963adbe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fe3963b9390}, NULL, 8"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "rt_sigprocmask",
+    "arguments": "SIG_UNBLOCK, [RTMIN RT_1], NULL, 8"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "getrlimit",
+    "arguments": "RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "statfs",
+    "arguments": "\"/sys/fs/selinux\", 0x7ffeee340090"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOENT (No such file or directory",
+    "name": "statfs",
+    "arguments": "\"/selinux\", 0x7ffeee340090"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x245c00",
+    "name": "brk",
+    "arguments": "NULL"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x247d00",
+    "name": "brk",
+    "arguments": "0x247d000"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\"/proc/filesystems\", O_RDONLY"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFREG|0444, st_size=0, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "50",
+    "name": "read",
+    "arguments": "3, \"nodev\\tsysfs\\nnodev\\trootfs\\nnodev\\tr\"..., 1024"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "read",
+    "arguments": "3, \"\", 1024"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\"/usr/lib/locale/locale-archive\", O_RDONLY|O_CLOEXEC"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFREG|0644, st_size=4546432, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "0x7fe395f5200",
+    "name": "mmap",
+    "arguments": "NULL, 4546432, PROT_READ, MAP_PRIVATE, 3, 0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOTTY (Inappropriate ioctl for device",
+    "name": "ioctl",
+    "arguments": "1, TCGETS, 0x7ffeee33fcf0"
+}, {
+    "timestamp": 1577520950,
+    "return": "-1 ENOTTY (Inappropriate ioctl for device",
+    "name": "ioctl",
+    "arguments": "1, TIOCGWINSZ, 0x7ffeee33fdb0"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "open",
+    "arguments": "\".\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "3, {st_mode=S_IFDIR|0775, st_size=4096, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "27",
+    "name": "getdents",
+    "arguments": "3, /* 9 entries */, 32768"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "getdents",
+    "arguments": "3, /* 0 entries */, 32768"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "3"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "fstat",
+    "arguments": "1, {st_mode=S_IFIFO|0600, st_size=0, ...}"
+}, {
+    "timestamp": 1577520950,
+    "return": "6",
+    "name": "write",
+    "arguments": "1, \"main.py\\n__pycache__\\nsniffer.py\\ns\"..., 62"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "1"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "close",
+    "arguments": "2"
+}, {
+    "timestamp": 1577520950,
+    "return": "",
+    "name": "exit_group",
+    "arguments": "0"
+}, {
+    "timestamp": 1577520950,
+    "return": "+++ exited with 0 ++",
+    "name": "+++ exited with 0 ++",
+    "arguments": "+++ exited with 0"
+}]
